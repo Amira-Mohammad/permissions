@@ -1,0 +1,12 @@
+<div>
+    <div class="app-content-admin">
+<app-content-admin *ngIf="showAdminContentComponent"></app-content-admin>
+<button (click)="toggleAdminContentComponent()"> Admin Content</button>
+</div>
+
+<div class="app-content-office">
+<app-content-office *ngIf="showOfficeContentComponent" ></app-content-office>
+<button (click)="toggleOfficeContentComponent()"> office Content</button>
+
+</div>
+</div>
